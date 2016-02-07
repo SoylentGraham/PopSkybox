@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Skybox
-  m_Shader: {fileID: 4800000, guid: 2188cc2efc47248fb8eea7f4e0277873, type: 3}
+  m_Shader: {fileID: 4800000, guid: 020d12a81906042778da8e5fd951f070, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
   m_CustomRenderQueue: 1000
@@ -127,6 +127,38 @@ Material:
         first:
           name: _Metallic
         second: 0
+      data:
+        first:
+          name: SphereRadius
+        second: 0.069
+      data:
+        first:
+          name: GridSize
+        second: 1.1
+      data:
+        first:
+          name: CameraX
+        second: -0.47
+      data:
+        first:
+          name: CameraY
+        second: -0.14
+      data:
+        first:
+          name: CameraZ
+        second: 0.28
+      data:
+        first:
+          name: ColourGridSize
+        second: 0.605
+      data:
+        first:
+          name: RayStep
+        second: 0.031
+      data:
+        first:
+          name: RayStepGrowth
+        second: 0.024
     m_Colors:
       data:
         first:
@@ -136,3 +168,7 @@ Material:
         first:
           name: _Color
         second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: SpherePosition
+        second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
