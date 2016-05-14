@@ -3,17 +3,17 @@
     Properties
     {
     	_MainTex ("Texture", 2D) = "white" {}
-    	SphereRadius("Radius", Range(0.01,1) ) = 1.0
-    	SpherePosition("SpherePosition", VECTOR ) = (1,0,1)
-   		GridSize("GridSize", Range(0,20) ) = 1.0
- 		ColourGridSize("ColourGridSize", Range(0,1) ) = 1.0
+    	SphereRadius("Radius", Range(0.01,1) ) = 0.09
+    	SpherePosition("SpherePosition", VECTOR ) = (0.5,0.5,0.5)
+   	GridSize("GridSize", Range(0,20) ) = 4.5
+ 	ColourGridSize("ColourGridSize", Range(0,1) ) = 0.9
 
     	CameraX("CameraX", Range(-1,1) ) = 0
     	CameraY("CameraY", Range(-1,1) ) = 0
     	CameraZ("CameraZ", Range(-1,1) ) = 0
 
-    	RayStep("RayStep", Range(0,0.3) ) = 0.1
-    	RayStepGrowth("RayStepGrowth", Range(0,1) ) = 0.1
+    	RayStep("RayStep", Range(0,0.1) ) = 0.009
+    	RayStepGrowth("RayStepGrowth", Range(0,0.1) ) = 0.034
     }
 
     CGINCLUDE
